@@ -1,0 +1,50 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 1em 10%;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+#hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('lake.jpg');
+    background-size: cover;
+    padding: 10% 10%;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section {
+    padding: 3% 10%;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 2% 10%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
